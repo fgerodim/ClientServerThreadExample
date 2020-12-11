@@ -1,1 +1,2 @@
 # ClientServerThreadExample
+Using Java sockets a client / server type application was developed which will provide as a service the current date and time of the server machine. Before sending this information the server waits a random amount of time from 0 to 3 sec. The client application prints the date and time it received. The server service is offered at port 44 while the server address (IP address or hostname) is 127.0.0.1 or localhost. The service is offered to many customers at the same time.
